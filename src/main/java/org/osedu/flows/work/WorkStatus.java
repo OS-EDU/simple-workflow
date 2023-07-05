@@ -1,4 +1,4 @@
-package org.osedu.flow.work;
+package org.osedu.flows.work;
 
 /**
  * Work execution status enumeration.

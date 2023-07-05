@@ -1,4 +1,4 @@
-package org.osedu.flow.engine;
+package org.osedu.flows.engine;
 
 /**
  * Main entry point to create {@link WorkFlowEngine} instances.

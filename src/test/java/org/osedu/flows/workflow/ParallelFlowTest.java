@@ -1,11 +1,11 @@
-package org.osedu.flow.workflow;
+package org.osedu.flows.workflow;
 
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
 import org.mockito.Mockito;
-import org.osedu.flow.work.Work;
-import org.osedu.flow.work.WorkContext;
-import org.osedu.flow.work.WorkReport;
+import org.osedu.flows.work.Work;
+import org.osedu.flows.work.WorkContext;
+import org.osedu.flows.work.WorkReport;
 
 import java.util.Arrays;
 import java.util.List;

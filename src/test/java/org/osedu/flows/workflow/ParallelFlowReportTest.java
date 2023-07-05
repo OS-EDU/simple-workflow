@@ -1,11 +1,11 @@
-package org.osedu.flow.workflow;
+package org.osedu.flows.workflow;
 
 import org.assertj.core.api.Assertions;
 import org.junit.Before;
 import org.junit.Test;
-import org.osedu.flow.work.DefaultWorkReport;
-import org.osedu.flow.work.WorkContext;
-import org.osedu.flow.work.WorkStatus;
+import org.osedu.flows.work.DefaultWorkReport;
+import org.osedu.flows.work.WorkContext;
+import org.osedu.flows.work.WorkStatus;
 
 public class ParallelFlowReportTest {
 

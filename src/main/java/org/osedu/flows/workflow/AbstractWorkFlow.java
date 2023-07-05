@@ -1,4 +1,4 @@
-package org.osedu.flow.workflow;
+package org.osedu.flows.workflow;
 
 abstract class AbstractWorkFlow implements WorkFlow {
 

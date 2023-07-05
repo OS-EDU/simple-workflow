@@ -1,4 +1,4 @@
-package org.osedu.flow.work;
+package org.osedu.flows.work;
 
 import java.util.Map;
 import java.util.Set;
@@ -21,7 +21,7 @@ public class WorkContext {
         return context.get(key);
     }
 
-    public Set<Map.Entry<String, Object>> getEntry() {
+    public Set<Map.Entry<String, Object>> getEntrySet() {
         return context.entrySet();
     }
 

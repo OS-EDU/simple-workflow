@@ -1,8 +1,8 @@
-package org.osedu.flow.workflow;
+package org.osedu.flows.workflow;
 
-import org.osedu.flow.work.Work;
-import org.osedu.flow.work.WorkContext;
-import org.osedu.flow.work.WorkReport;
+import org.osedu.flows.work.Work;
+import org.osedu.flows.work.WorkContext;
+import org.osedu.flows.work.WorkReport;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -20,8 +20,8 @@ import java.util.concurrent.ExecutorService;
  * The status of a parallel flow execution is defined as:
  *
  * <ul>
- *     <li>{@link org.osedu.flow.work.WorkStatus#COMPLETED}: If all work units have successfully completed</li>
- *     <li>{@link org.osedu.flow.work.WorkStatus#FAILED}: If one of the work units has failed</li>
+ *     <li>{@link org.osedu.flows.work.WorkStatus#COMPLETED}: If all work units have successfully completed</li>
+ *     <li>{@link org.osedu.flows.work.WorkStatus#FAILED}: If one of the work units has failed</li>
  * </ul>
  */
 public class ParallelFlow extends AbstractWorkFlow {
