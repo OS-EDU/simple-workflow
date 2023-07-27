@@ -1,6 +1,6 @@
-package org.osedu.flow.workflow;
+package org.osedu.flows.workflow;
 
-import org.osedu.flow.work.Work;
+import org.osedu.flows.work.Work;
 
 /**
  * Interface to define a flow of work units. A workflow is can also as a work,

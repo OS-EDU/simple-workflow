@@ -1,4 +1,4 @@
-package org.osedu.flow.work;
+package org.osedu.flows.work;
 
 import org.assertj.core.api.Assertions;
 import org.junit.Assert;

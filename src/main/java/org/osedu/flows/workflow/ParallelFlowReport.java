@@ -1,8 +1,8 @@
-package org.osedu.flow.workflow;
+package org.osedu.flows.workflow;
 
-import org.osedu.flow.work.WorkContext;
-import org.osedu.flow.work.WorkReport;
-import org.osedu.flow.work.WorkStatus;
+import org.osedu.flows.work.WorkContext;
+import org.osedu.flows.work.WorkReport;
+import org.osedu.flows.work.WorkStatus;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -96,7 +96,7 @@ public class ParallelFlowReport implements WorkReport {
         WorkContext workContext = new WorkContext();
         for (WorkReport report : reports) {
             WorkContext partialContext = report.getWorkContext();
-            for (Map.Entry<String, Object> entry : partialContext.getEntry()) {
+            for (Map.Entry<String, Object> entry : partialContext.getEntrySet()) {
                 workContext.put(entry.getKey(), entry.getValue());
             }
         }

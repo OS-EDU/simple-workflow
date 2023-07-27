@@ -1,8 +1,8 @@
-package org.osedu.flow.engine;
+package org.osedu.flows.engine;
 
-import org.osedu.flow.work.WorkContext;
-import org.osedu.flow.work.WorkReport;
-import org.osedu.flow.workflow.WorkFlow;
+import org.osedu.flows.work.WorkContext;
+import org.osedu.flows.work.WorkReport;
+import org.osedu.flows.workflow.WorkFlow;
 
 /**
  * Interface for a workflow engine.

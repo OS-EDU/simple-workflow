@@ -1,4 +1,4 @@
-package org.osedu.flow.work;
+package org.osedu.flows.work;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -24,13 +24,13 @@ public interface WorkReportPredicate {
     /**
      * A predicate that returns true after a given number of items.
      */
-    class TimePredicate implements WorkReportPredicate {
+    class TimesPredicate implements WorkReportPredicate {
 
         private final int times;
 
         private final AtomicInteger counter = new AtomicInteger();
 
-        public TimePredicate(int times) {
+        public TimesPredicate(int times) {
             this.times = times;
         }
 
@@ -39,10 +39,9 @@ public interface WorkReportPredicate {
             return counter.incrementAndGet() != times;
         }
 
-        public static TimePredicate times(int times) {
-            return new TimePredicate(times);
+        public static TimesPredicate times(int times) {
+            return new TimesPredicate(times);
         }
     }
-
 
 }
